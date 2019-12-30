@@ -1,0 +1,6 @@
+<button onclick="click me()"></button>
+<ion-button (click)="this()"></ion-button>
+
+<button onclick="click me()"></button>
+<ion-button (click)="this()"></ion-button>
+

@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="#"></ion-back-button>
+    </ion-buttons>
+    <ion-title>News</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light">
+     <p class="cont">News Page</p>
+
+      <ion-text>
+        <h2>The text component is a simple component that can be used to style the text color of any element. 
+        The ion-text element should wrap the element in order to change the text color of that element.
+       </h2>
+      </ion-text>
+
+      <ion-button (click)="open()" color="light">
+        open pages
+      </ion-button>
+
+      <p>
+          The text component is a simple component that can be used to style the text color of any element. 
+          The ion-text element should wrap the element in order to change the text color of that element.
+      </p>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col class="tran">
+            <p>The text component is a simple component that can be used to style the text color of any element. 
+              The ion-text element should wrap the element in order to change the text color of that element.</p>
+          </ion-col>
+          <ion-col>
+            <p>The text component is a simple component that can be used to style the text color of any element. 
+              The ion-text element should wrap the element in order to change the text color of that element.</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+     <ion-slides>
+       <ion-slide>
+         <img src="/assets/icon/pic.jpg"> 
+         <h2>This is slide 1</h2>
+       </ion-slide>
+
+       <ion-slide class="ime">
+          <img src="/assets/icon/cover.jpeg">
+          <h2>This is slide 2</h2>
+        </ion-slide>
+
+        <ion-slide>
+            <img src="/assets/icon/pic.jpg">
+            <h2>This is slide 3</h2>
+          </ion-slide>
+     </ion-slides>
+</ion-content>

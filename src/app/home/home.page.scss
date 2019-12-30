@@ -1,0 +1,43 @@
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+ 
+}
+
+.card{
+  text-align: center;
+}
+
+ion-col:hover{
+ background-color: blue;
+ color:white;
+}
+
+.line{
+  background-color:lightslategray;
+}
+
+.gred1 { grid-area: header;}
+.gred2 { grid-area: menu;}
+.gred3 { grid-area: main;}
+.gred4 { grid-area:right;}
+.gred5 { grid-area:footer;}
+
+.grid {
+  display: grid;
+  grid-template-areas: 'header header header header header header' 'menu main main right right right' 'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color:lightcoral;
+  padding: 10px;
+}
+
+.grid > div {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+}
+
+.gred2 > img {
+  height: 150px;
+  padding-top: 50px;
+}

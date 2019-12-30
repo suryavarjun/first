@@ -1,0 +1,91 @@
+<ion-header>
+  <ion-toolbar color="tertiary"> 
+      <ion-buttons slot="start">
+          <ion-back-button defaultHref="#"></ion-back-button>
+        </ion-buttons>
+    <ion-title>My Expenses</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+  <ion-list-header>My Expenses</ion-list-header>
+  <ion-item>
+    <ion-label>House Rent</ion-label>
+    <ion-note slot="end" color="primary">10k</ion-note>
+  </ion-item>
+  <ion-item>
+    <ion-label>Amount</ion-label>
+    <ion-note slot="end" color="success">20k</ion-note>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+  <ion-item>
+    <ion-label>Finn</ion-label>
+    <ion-note slot="end" color="primary" (click)="view()">view</ion-note>
+  </ion-item>
+  <ion-item>
+    <ion-label>Ben</ion-label>
+    <!-- <ion-label slot="end" color="primary">view</ion-label> -->
+    <ion-note slot="end" color="primary" (click)="benn()">view</ion-note>
+  </ion-item>
+</ion-list>
+
+  <ion-grid>
+  <ion-row>
+    <ion-col >
+      <img src="/assets/icon/pic.jpg" (click)="col()">
+  </ion-col>
+  <ion-col>
+      <img src="/assets/icon/pic.jpg" (click)="cli()">
+  </ion-col>
+  </ion-row>
+  </ion-grid>
+
+  <ion-grid class="clo">
+      <ion-row>
+        <ion-col size="3"> 
+          <img src="/assets/icon/pic.jpg" (click)="col()">
+      </ion-col>
+      <ion-col size="3">
+          <img src="/assets/icon/pic.jpg" (click)="col()">
+      </ion-col>
+      <ion-col size="3">
+          <img src="/assets/icon/pic.jpg" (click)="cli()">
+      </ion-col> 
+      <ion-col size="3">
+          <img src="/assets/icon/pic.jpg  " (click)="col()">
+      </ion-col>
+      </ion-row>
+      </ion-grid>
+
+
+
+  <!-- <ion-list>
+    <ion-item>
+      <ion-avatar >
+        <img src="/assets/icon/pic.jpg">
+      </ion-avatar>
+   
+        <ion-avatar >
+          <img src="/assets/icon/pic.jpg">
+        </ion-avatar>
+      </ion-item>
+  </ion-list> -->
+
+</ion-content>
+
+<ion-footer>
+  <ion-grid>
+  <ion-row>
+      <ion-col size="10">
+    <ion-input placeholder="Enter values" [(ngModel)]="nName" name="Name"></ion-input>
+  </ion-col>
+  <ion-col size="2">
+    <ion-button type="submit" (click)="values()"><ion-icon name="add"></ion-icon></ion-button>
+  </ion-col>
+  </ion-row>
+  </ion-grid>
+</ion-footer>

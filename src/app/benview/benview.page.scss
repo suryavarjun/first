@@ -1,0 +1,39 @@
+ion-grid{
+    border: 2px solid lightblue;
+}
+
+.deta{
+    border: 2px solid lightpink;
+    margin: 20px;
+}
+
+.tab{
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 10%;
+}
+ th, td{
+    border:1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table{
+    padding-left: 20px;
+    border:1px solid grey;
+}
+
+// tr > td {
+//     background-color: lightblue;
+// }
+
+table tr:nth-child(odd) {
+    background-color:lightgray;
+}
+
+table tr:nth-child(even) {
+    background-color:white;
+}
+
+.grd{
+    margin-top:20px;
+}
